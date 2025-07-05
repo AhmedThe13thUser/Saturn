@@ -178,7 +178,19 @@ body {
   transition: 0.3s;
 }
 
-a {
+.Saturn-Link:link {
+  color: var(--accent-color);
+}
+
+.Saturn-Link:visited {
+  color: var(--accent-color);
+}
+
+.Saturn-Link:hover {
+  color: var(--accent-color);
+}
+
+.Saturn-Link:active {
   color: var(--accent-color);
 }
 
