@@ -178,6 +178,10 @@ body {
   transition: 0.3s;
 }
 
+a {
+  color: var(--accent-color);
+}
+
 /* Home Section */
 .home-section {
   min-height: 100vh;
@@ -239,6 +243,8 @@ body {
   margin-bottom: 1rem;
   letter-spacing: 3px;
   text-shadow: 0 0 20px var(--accent-glow), 2px 2px 4px rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  margin-right: 2.5vh;
 }
 
 .hero-subtitle {
@@ -790,7 +796,7 @@ body {
   }
 }
 
-/* Responsive Design */
+/* Tablet */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -822,6 +828,8 @@ body {
 
   .hero-title {
     font-size: 3rem;
+    /* display: inline-block; */
+    display: block;
   }
 
   .saturn-logo-container {
@@ -858,6 +866,7 @@ body {
   }
 }
 
+/*phone*/
 @media (max-width: 480px) {
   .hero-title {
     font-size: 2.5rem;
