@@ -210,9 +210,9 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(el);
   });
 
-  console.log("Saturn FTC Team website initialized! 🪐");
+  console.log("Saturn FTC Team website initialized! ");
   console.log(
     `Sponsored by section is ${SHOW_SPONSORED_BY ? "enabled" : "disabled"}`
   );
-  console.log("Dark theme with lighting effects activated ✨");
+  console.log("Dark theme with lighting effects activated ");
 });

@@ -41,10 +41,28 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
+
   line-height: 1.6;
   color: var(--text-light);
   background-color: var(--background-dark);
   overflow-x: hidden;
+}
+
+body[lang="en"] {
+  font-family: "Inter", sans-serif;
+}
+
+body[lang="ar"] {
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.Lang-Sel {
+  list-style: none;
+  display: none;
+}
+ul > .Lang-Sel {
+  display: block;
 }
 
 .container {
@@ -876,6 +894,12 @@ body {
     width: 300px;
     height: 300px;
   }
+  .Lang-Sel {
+    display: block;
+  }
+  ul > .Lang-Sel {
+    display: none;
+  }
 }
 
 /*phone*/
@@ -918,6 +942,13 @@ body {
 
   .member-role {
     font-size: 0.85rem;
+  }
+
+  .Lang-Sel {
+    display: block;
+  }
+  ul > .Lang-Sel {
+    display: none;
   }
 }
 

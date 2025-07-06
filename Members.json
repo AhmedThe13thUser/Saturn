@@ -1,0 +1,40 @@
+{
+  "Members": [
+    {
+      "ID": 0,
+      "Name": "Hussien Bougrahra",
+      "Name-Arabic": "حسين بغرارة",
+      "Role": "Team Captain & Coach Builder",
+      "Role-Arabic": "قائد الفريق ومدرب البناء",
+      "Image": "src/saturn-logo.png",
+      "Timespan": "2025-Current"
+    },
+    {
+      "ID": 3,
+      "Name": "Mohammed Abdullah",
+      "Name-Arabic": "محمد عبدالله",
+      "Role": "Programming Coach",
+      "Role-Arabic": "مدرب البرمجة",
+      "Image": "src/saturn-logo.png",
+      "Timespan": "2025-Current"
+    },
+    {
+      "ID": 2,
+      "Name": "Muhi Aldeen",
+      "Name-Arabic": "محي الدين",
+      "Role": "Social Media Coach",
+      "Role-Arabic": "مدرب وسائل التواصل الاجتماعي",
+      "Image": "src/saturn-logo.png",
+      "Timespan": "2025-Current"
+    },
+    {
+      "ID": 3,
+      "Name": "Ahmed Abdalbaset Omar",
+      "Name-Arabic": "أحمد عبدالباسط",
+      "Role": "Programmer",
+      "Role-Arabic": "مبرمج",
+      "Image": "src/saturn-logo.png",
+      "Timespan": "2025-Current"
+    }
+  ]
+}

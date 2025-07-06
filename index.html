@@ -20,21 +20,34 @@
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-logo">
-          <span class="logo-text">SATURN</span>
-          <span class="logo-subtitle">FTC Team</span>
+          <span class="logo-text Site-Name-Local">SATURN</span>
+          <span class="logo-subtitle Type-Abbv-Local">FTC Team</span>
         </div>
+        <li class="nav-item Lang-Sel">
+          <a href="" onclick="ChangeLanguage()" class="nav-link Nav-Lang-Local"
+            >AR</a
+          >
+        </li>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
+            <a href="#home" class="nav-link Nav-Home-Local">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
+            <a href="#about" class="nav-link Nav-About-Local">About</a>
           </li>
           <li class="nav-item">
-            <a href="#members" class="nav-link">Members</a>
+            <a href="#members" class="nav-link Nav-Members-Local">Members</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link Nav-Contact-Local">Contact</a>
+          </li>
+          <li class="nav-item Lang-Sel">
+            <a
+              href=""
+              onclick="ChangeLanguage()"
+              class="nav-link Nav-Lang-Local"
+              >AR</a
+            >
           </li>
         </ul>
         <div class="hamburger">
@@ -50,33 +63,37 @@
       <div class="light-source"></div>
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">SATURN</h1>
+          <h1 class="hero-title Site-Name-Local">SATURN</h1>
           <a
             href="https://forms.gle/d2ozpobtUgqsDezR8"
-            class="btn btn-primary hero-button"
+            class="btn btn-primary hero-button Join-Us-Local"
             >Join us!</a
           >
-          <p class="hero-subtitle">FTC Robotics Team</p>
-          <p class="hero-location">Albayda, Libya</p>
-          <p class="hero-description">
+          <p class="hero-subtitle Type-Local">FTC Robotics Team</p>
+          <p class="hero-location Location-Local">Albayda, Libya</p>
+          <p class="hero-description Home-Desc-Local">
             A new journey begins. We are Saturn, a passionate robotics team
             starting our first season in the FIRST Tech Challenge.
             <a
               target="_blank"
               href="https://www.instagram.com/saturncookieshop/"
-              class="Saturn-Link"
+              class="Saturn-Link hero-description Home-Desc-Local Cookies-Link-Local"
               >And Have The Best Cookies!</a
             >
           </p>
           <div class="hero-buttons">
-            <a href="#about" class="btn btn-primary">Learn More</a>
+            <a href="#about" class="btn btn-primary Learn-More-Local"
+              >Learn More</a
+            >
 
-            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            <a href="#contact" class="btn btn-secondary Get-In-Touch-Local"
+              >Get In Touch</a
+            >
           </div>
           <div class="sponsored-by" id="sponsoredBy">
-            <p class="sponsored-text">Sponsored by</p>
+            <p class="sponsored-text Sponsored-By-Local">Sponsored by</p>
             <div class="sponsor-logos">
-              <div class="sponsor-logo">UR MOM</div>
+              <div class="sponsor-logo Sponsor-Name-Local">UR MOM</div>
             </div>
           </div>
         </div>
@@ -99,16 +116,16 @@
     <section id="about" class="about-section">
       <div class="section-light"></div>
       <div class="container">
-        <h2 class="section-title">About Saturn</h2>
+        <h2 class="section-title About-Saturn-Label-Local">About Saturn</h2>
         <div class="about-content">
           <div class="about-text">
-            <p>
+            <p class="About-p1-Local">
               Saturn is a newly formed FIRST Tech Challenge team based in
               Albayda, Libya. This is our inaugural season, and we're excited to
               embark on this incredible journey of innovation, teamwork, and
               technological exploration.
             </p>
-            <p>
+            <p class="About-p2-Local">
               Our mission is to inspire young minds through hands-on STEM
               education, fostering creativity, problem-solving skills, and
               collaboration. We believe that robotics is not just about building
@@ -117,18 +134,24 @@
             <div class="mission-values">
               <div class="value-item">
                 <i class="fas fa-lightbulb"></i>
-                <h3>Innovation</h3>
-                <p>We push boundaries and think outside the box</p>
+                <h3 class="About-Boxes-b1-Local">Innovation</h3>
+                <p class="About-Boxes-Desc-b1-Local">
+                  We push boundaries and think outside the box
+                </p>
               </div>
               <div class="value-item">
                 <i class="fas fa-users"></i>
-                <h3>Teamwork</h3>
-                <p>Together we achieve more than individually</p>
+                <h3 class="About-Boxes-b2-Local">Teamwork</h3>
+                <p class="About-Boxes-Desc-b2-Local">
+                  Together we achieve more than individually
+                </p>
               </div>
               <div class="value-item">
                 <i class="fas fa-trophy"></i>
-                <h3>Excellence</h3>
-                <p>We strive for the highest standards in everything</p>
+                <h3 class="About-Boxes-b3-Local">Excellence</h3>
+                <p class="About-Boxes-Desc-b3-Local">
+                  We strive for the highest standards in everything
+                </p>
               </div>
             </div>
           </div>
@@ -140,111 +163,11 @@
     <section id="members" class="members-section">
       <div class="section-light"></div>
       <div class="container">
-        <h2 class="section-title">Our Team</h2>
-        <p class="section-subtitle">
+        <h2 class="section-title Our-Team-Label-Local">Our Team</h2>
+        <p class="section-subtitle Our-Team-Desc-Local">
           Meet the passionate individuals behind Saturn
         </p>
-        <div class="members-grid">
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Team Captain & Coach Builder</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Programming Coach</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Social Media Coach</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Programmer</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Builder</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Builder</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Social Media</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Programmer</p>
-          </div>
-          <div class="member-card">
-            <div class="member-avatar">
-              <img
-                src="src/saturn-logo.png"
-                alt="Team Member"
-                class="member-logo"
-              />
-            </div>
-            <h3>John Doe</h3>
-            <p class="member-role">Builder</p>
-          </div>
-        </div>
+        <div class="members-grid"></div>
       </div>
     </section>
 
@@ -252,34 +175,44 @@
     <section id="contact" class="contact-section">
       <div class="section-light"></div>
       <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="section-subtitle">Connect with Saturn FTC Team</p>
+        <h2 class="section-title Contact-Get-In-Touch-Label-Local">
+          Get In Touch
+        </h2>
+        <p class="section-subtitle Contact-Get-In-Touch-Desc-Local">
+          Connect with Saturn FTC Team
+        </p>
         <div class="contact-content">
           <div class="contact-info">
             <div class="contact-item">
               <i class="fas fa-map-marker-alt"></i>
               <div>
-                <h3>Location</h3>
-                <p>Albayda, Libya</p>
+                <h3 class="Contact-Location-Label-Local">Location</h3>
+                <p class="Contact-Location-Desc-Local">Albayda, Libya</p>
               </div>
             </div>
             <div class="contact-item">
               <i class="fas fa-calendar-alt"></i>
               <div>
-                <h3>Season</h3>
-                <p>2024-2025 (Our First Season!)</p>
+                <h3 class="Contact-Season-Label-Local">Season</h3>
+                <p class="Contact-Season-Desc-Local">
+                  2025-2026 (Our First Season!)
+                </p>
               </div>
             </div>
             <div class="contact-item">
               <i class="fas fa-robot"></i>
               <div>
-                <h3>Competition</h3>
-                <p>FIRST Tech Challenge</p>
+                <h3 class="Contact-Competition-Label-Local">Competition</h3>
+                <p class="Contact-Competition-Desc-Local">
+                  FIRST Tech Challenge
+                </p>
               </div>
             </div>
           </div>
           <div class="social-links">
-            <h3>Follow Our Journey</h3>
+            <h3 class="Contact-Follow-Our-Journey-Label-Local">
+              Follow Our Journey
+            </h3>
             <div class="social-buttons">
               <a
                 href="github.com"
@@ -288,7 +221,7 @@
                 rel="noopener noreferrer"
               >
                 <i class="fab fa-github"></i>
-                <span>GitHub</span>
+                <span class="Contact-Github-Label-Local">GitHub</span>
               </a>
               <a
                 href="https://www.instagram.com/ly.saturn.team"
@@ -297,7 +230,7 @@
                 rel="noopener noreferrer"
               >
                 <i class="fab fa-instagram"></i>
-                <span>Instagram</span>
+                <span class="Contact-Instagram-Label-Local">Instagram</span>
               </a>
               <a
                 href="https://www.linkedin.com/in/saturn-team-a635b7368"
@@ -306,7 +239,7 @@
                 rel="noopener noreferrer"
               >
                 <i class="fab fa-linkedin"></i>
-                <span>LinkedIn</span>
+                <span class="Contact-Linkedin-Label-Local">LinkedIn</span>
               </a>
             </div>
           </div>
@@ -317,11 +250,13 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2024 Saturn FTC Team. All rights reserved.</p>
-        <p>Proudly representing Albayda, Libya in our first FTC season</p>
+        <p class="Copyrights">
+          &copy; 2025 Saturn FTC Team. All rights reserved.
+        </p>
       </div>
     </footer>
 
     <script defer src="./src/main.js"></script>
+    <script defer src="./src/Localization.js"></script>
   </body>
 </html>
