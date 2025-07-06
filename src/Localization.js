@@ -27,7 +27,7 @@ const LoadLocales = () => {
 };
 
 const FetchLocales = () => {
-  fetch(`/locales/${defaultLanguage}.json`)
+  fetch(`./locales/${defaultLanguage}.json`)
     .then((response) => response.json())
     .then((translations) => {
       defaultLanguage == "en"
@@ -65,6 +65,9 @@ const LoadMembers = () => {
 };
 
 const SetLanguage = () => {
+  MembersGrid.textContent = ""; // Clearing so if we change languages we have a new slate to plob our members on
+
+  // Figuring out RTL LTR
   if (defaultLanguage == "ar") {
     document.body.dir = "rtl";
     document.body.lang = "ar"; // for css purposes
@@ -84,7 +87,7 @@ const SetLanguage = () => {
   // Apply The locale file and apply translations for the members
 
   if (MembersJsonFile == null) {
-    fetch("/Members.json")
+    fetch("./Members.json")
       .then((response) => response.json())
       .then((members) => {
         MembersJsonFile = members;
