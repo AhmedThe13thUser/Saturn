@@ -3,7 +3,7 @@
     {
       "ID": 0,
       "Name": "Hussien Bougrahra",
-      "Name-Arabic": "حسين بغرارة",
+      "Name-Arabic": "حسين بوغرارة",
       "Role": "Team Captain & Coach Builder",
       "Role-Arabic": "قائد الفريق ومدرب البناء",
       "Image": "src/saturn-logo.png",
@@ -11,7 +11,7 @@
     },
     {
       "ID": 3,
-      "Name": "Mohammed Abdullah",
+      "Name": "Mohammed Abdallah",
       "Name-Arabic": "محمد عبدالله",
       "Role": "Programming Coach",
       "Role-Arabic": "مدرب البرمجة",
